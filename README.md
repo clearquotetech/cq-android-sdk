@@ -1,8 +1,6 @@
-# cq-android-sdk
-
 **ClearQuote Android SDK integration**
  
-Steps to integrate the SDK inside an Android App
+Steps to integrate the SDK inside an Android App that's built on Kotlin
 
 
 **Step 1. In the Android app source code in build.gradle (app level) set minSDK to 23
