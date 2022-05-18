@@ -45,9 +45,12 @@ dependencyResolutionManagement {
 rootProject.name = "<your app project name>"
 include ':app'
 
- If it is an older project (without settings.gradle) then, Add jitpack in build.gradle (Project level)
-  
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ 
+**        If It is a older project(without settings.gradle) then, Add jitpack in build.gradle (Project level)
+**
+        
+ // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
    repositories {
        mavenLocal()
@@ -64,11 +67,12 @@ buildscript {
        // in the individual module build.gradle files
    }
 }
-
 task clean(type: Delete) {
    delete rootProject.buildDir
 }
-
+  
+ 
+   
 
 **Step 3. Add the ClearQuote Android SDK library in the build.gradle (app level)
 **  
