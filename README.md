@@ -29,7 +29,8 @@ android {
 **
 
 dependencyResolutionManagement object
-pluginManagement {
+pluginManagement 
+{
     repositories {
         ...
     }
@@ -88,10 +89,9 @@ dependencies {
 **Step 4. Sync the project
 **  
   
-**Step 5. Use this starter code in your activity’s onCreate method
-**
-  
-class MainActivity : AppCompatActivity() {
+Step 5. Use this starter code in your activity’s onCreate method
+
+  class MainActivity : AppCompatActivity() {
    override fun onCreate(savedInstanceState: Bundle?) {
        super.onCreate(savedInstanceState)
        setContentView(R.layout.activity_main)
