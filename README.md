@@ -79,7 +79,7 @@ dependencies {
 
     // CQ SDK
     implementation 'com.github.clearquotetech:cq-android-sdk:<Latest version>' 
-    // Current latest version is 1.0.0-beta.3
+    // Current latest version is 1.0.0-beta.4
 }
 
 ```
@@ -110,23 +110,23 @@ class MainActivity : AppCompatActivity() {
            )
        }else{
            // Initialize the SDK
-           cqSDKInitializer.initSDK(
-               // TODO Add the SDK key given by CQ
-               sdkKey = "<SDK Key>",
-               // TODO Add the Region here
-               region = UAT,
-               result = { initialized, code, message ->
-                   if (code == 200){
-                       // Start the inspection
-                       cqSDKInitializer.startInspection(
-                           activityContext = this,
-                           result = { started ->
-                               // Handle the response
-                           }
-                       )
-                   }
-               }
-           )
+            cqSDKInitializer.initSDK(
+                // TODO Add the SDK key given by CQ
+                token = "<SDK Key>",
+                // TODO Add the Region here
+                region = UAT,
+                result = { initialized, code, message ->
+                    if (code == 200){
+                        // Start the inspection
+                        cqSDKInitializer.startInspection(
+                            activityContext = this,
+                            result = { started ->
+                                // Handle the response
+                            }
+                        )
+                    }
+                }
+            )
        }
    }
 }
