@@ -86,7 +86,7 @@ dependencies {
 
 **4. Sync the project**
 
-![press the android studio button present in the top right cornor](https://clearquote-images.s3.amazonaws.com/cqsdk/android/step4.png)
+![press the android studio button present in the top right cornor](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/gradle-sync-project.png)
 
 
 **5. Use this starter code in your activity’s onCreate method**
@@ -160,14 +160,14 @@ This functions starts the inspection flow in the app
 ## Sample screenshots available from SDK integration:
 #### **1. Input page to start a vehicle inspection**
 
-![Input page](https://clearquote-images.s3.amazonaws.com/cqsdk/android/screen1.jpg)
+![Input page](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/Input%20page.jpg)
 #### **2. Guided flow for capture of images for a vehicle - number of overlays with the sequence order of overlays with each overlay outline is configurable. If real-time check of all the captured images are required, that is also configurable**
-![Guided flow](https://clearquote-images.s3.amazonaws.com/cqsdk/android/screen2.png)
+![Guided flow](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/guided%20flow.jpg)
 
 #### **3. Images of a vehicle uploaded**
-![Image uploads section](https://clearquote-images.s3.amazonaws.com/cqsdk/android/screen3.png)
+![Image uploads section](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/upload%20images.jpg)
 
 #### **4. Inspection checklist (optional - configurable checklist with sections and questions to be answered during vehicle inspection)**
-![Inspection checklist](https://clearquote-images.s3.amazonaws.com/cqsdk/android/screen4.jpg)
+![Inspection checklist](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/checklist.jpg)
 ## Github sample
 ###### [Github project](https://github.com/clearquotetech/cq-android-sdk-integration-sample) where SDK has been integrated
