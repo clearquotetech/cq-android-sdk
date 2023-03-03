@@ -86,7 +86,7 @@ dependencies {
 
 **4. Sync the project**
 
-![press the android studio button present in the top right cornor](https://github.com/clearquotetech/cq-android-sdk/blob/main/Readme%20assets/gradle-sync-project.png)
+![press the android studio button present in the top right cornor](https://github.com/clearquotetech/cq-android-sdk/blob/main/Resized%20assets/gradle-sync-project.png)
 
 
 **5. Use this starter code in your activity’s onCreate method**
