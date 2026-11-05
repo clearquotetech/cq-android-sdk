@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.clearquote.assessment.cq_sdk</groupId>
   <artifactId>cq-android-sdk</artifactId>
-  <version>3.1.5</version>
+  <version>3.1.6</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
