@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.clearquote.assessment.cq_sdk</groupId>
   <artifactId>cq-android-sdk</artifactId>
-  <version>3.1.6</version>
+  <version>3.1.7</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -285,6 +285,11 @@
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-location</artifactId>
       <version>21.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.osmdroid</groupId>
+      <artifactId>osmdroid-android</artifactId>
+      <version>6.1.20</version>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
